@@ -20,12 +20,12 @@ form {
 
 input[type=text], select, textarea {
     display: flex;
-    width: 90%;
-    padding: 20px;
+    width: 85%;
+    padding: 25px;
     border: 2px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 40px;
+    margin-top: 35px;
     margin-bottom: 16px;
     border-radius: 50px;
     margin-left: 10%;
@@ -36,24 +36,17 @@ input[type=text], select, textarea {
 
 input[type=password], select, textarea {
     display: flex;
-    width: 90%;
-    padding: 20px;
+    width: 85%;
+    padding: 25px;
     border: 2px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 40px;
+    margin-top: 35px;
     margin-bottom: 16px;
     border-radius: 50px;
     margin-left: 10%;
     font-size: 20px;
     text-indent: 50px;
-}
-
-.input-icon {
-    
-    translate: 85px 85px; /* Adjust the margin for icon spacing */
-    font-size: 20px; /* Adjust the icon size */
-    color: #555;
 }
 
 input[type=submit] {
@@ -68,6 +61,12 @@ input[type=submit] {
     cursor: pointer;
     margin-left: 35%;
     margin-top: 50px;
+}
+
+.input-icon {
+    translate: 85px 85px; /* Adjust the margin for icon spacing */
+    font-size: 20px; /* Adjust the icon size */
+    color: #555;
 }
 
 #submit-button:hover {

@@ -70,6 +70,9 @@ input[type=submit] {
     margin-top: 50px;
 }
 
+#submit-button:hover {
+    opacity: 0.8;
+}
 
 #under-text {
     font-size: 20px;
@@ -82,6 +85,10 @@ input[type=submit] {
     display: inline;
     margin-top: 2%;
     padding-left: 8%;
+}
+
+.social-media-links a:hover {
+    opacity: 0.8;
 }
 
 #left-sm-link {

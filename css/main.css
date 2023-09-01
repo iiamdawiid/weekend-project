@@ -1,0 +1,66 @@
+.clip-me{
+
+    clip-path: circle(50% at 50% 50%);
+
+}
+
+.sign-in{
+    margin-right: 15px;
+}
+
+.main{
+    flex-basis: 600px;
+    .nav-link{
+        color: black;
+    }
+}
+
+.circle{
+    background-color: lightblue;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: relative;
+}
+
+.img-stuff{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    /* border: 1px solid pink; */
+}
+
+.small-card{
+    width: 150px;
+    height: 150px !important;
+}
+
+.dollar-sign{
+    height: 60px;
+    width: 60px;
+}
+
+.col{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card-text{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.check-icon{
+    height: 80px;
+}
+
+.calander{
+    height: 80px;
+}
+
+.small-card1{
+    background-color: blue;
+    color: white;
+}

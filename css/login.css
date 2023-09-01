@@ -1,0 +1,142 @@
+body {
+}
+
+main {
+    display: flex;
+}
+
+.left-container {
+    background: radial-gradient(200% 200% at 0% 0%, blue 50%, transparent 50%);
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    position: relative;
+    padding-top: 100px;
+}
+
+.signup-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alt-sign-up-box{
+    font-size: 13px;
+    margin-top: 18px;
+    font-weight: 600;
+}
+
+.logos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-item{
+    height: 40px;
+    width: 40px;
+    margin: 15px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 50%;
+
+    /* Put the text in the center of the circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic-of-lady{
+    width: 400px;
+    height: 400px;
+    margin-top: 120px;
+    margin-right: 100px;
+}
+
+.form-control {
+    border-top-right-radius: 40px !important;
+    border-bottom-right-radius: 40px !important;
+    border-radius: 40px;
+    border: 1px solid rgb(131, 131, 131);
+    padding: 12px;
+    position: relative;
+}
+
+.input-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 15px;
+    left: 15px;
+}
+
+.right-container  {
+    width: 30%;
+    padding-top: 100px;
+}
+
+.login-wrapper {
+    margin: 10px;
+    padding: 20px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    border-radius: 20px;
+    padding: 5px 30px 5px 30px; /*  Remember the coordinates! */
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+    width: 130px;
+}
+
+.sign-up-text{
+    font-weight: 650;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+
+.input-group {
+    width: 80%;
+    margin: 28px 0px;
+}
+
+
+.sign-up-title {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.logo-img{
+    width: 20px;
+}
+
+.signup-btn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 8px;
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}

@@ -11,7 +11,7 @@
     margin-top: 30px;
     font-size: 60px;
     font-family: 'Roboto', sans-serif;
-    margin-bottom:2%;
+    margin-bottom:-1%;
 }
 
 form {
@@ -31,6 +31,7 @@ input[type=text], select, textarea {
     margin-left: 10%;
     font-size: 20px;
     text-indent: 50px;
+    box-sizing: border-box;
 }
 
 input[type=password], select, textarea {
@@ -49,7 +50,10 @@ input[type=password], select, textarea {
 }
 
 .input-icon {
-    translate: 100px 85px;
+    
+    translate: 85px 85px; /* Adjust the margin for icon spacing */
+    font-size: 20px; /* Adjust the icon size */
+    color: #555;
 }
 
 input[type=submit] {
@@ -99,4 +103,13 @@ input[type=submit] {
     height: 850px;
     margin-top: 30px;
     margin-left: 30px;
+}
+
+.flex-form-container {
+    display: flex;
+}
+
+.responsive-form {
+    max-width: 1000px; /* Set a maximum width for the form */
+    padding: 20px;
 }

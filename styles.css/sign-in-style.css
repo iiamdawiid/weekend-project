@@ -4,29 +4,28 @@ body {
 
 .img-container {
     position: relative;
-    width: 1000px; /* Set a maximum width to avoid interference */
+    width: 1000px; 
 }
 
 #group-15 {
-    position: absolute; /* Position it relative to its closest positioned ancestor (the container) */
-    top: 350px; /* Adjust the top position as needed */
-    left: 470px; /* Adjust the left position as needed */
-    width: 50%; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    position: absolute; 
+    top: 350px; 
+    left: 470px; 
+    width: 50%; 
+    height: auto; 
     z-index: 2;
 }
 
 #bg-img {
     width: 100%;
-    /* justify-content: flex-start; */
     z-index: 1;
     margin-left: 250px;
 }
 
 .sign-up-container {
-    position: absolute; /* Establish positioning context for child elements */
-    top: 50px; /* Adjust the top position as needed */
-    left: 160px; /* Adjust the left position as needed */
+    position: absolute; 
+    top: 50px; 
+    left: 160px; 
     z-index: 3;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -154,8 +153,6 @@ input[type=submit] {
     height: 920px;
     background-color: white;
     margin-top: 15px;
-    /* margin-left: auto;
-    margin-right: auto; */
     margin-left: -400px;
     align-items: center;
     justify-content: flex-end;

@@ -1,0 +1,14 @@
+.container-fluid{
+    padding-top: 25px;
+    padding-right: 120px;
+    padding-left: 120px;
+}
+
+.nav-item{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.flex-container{
+    width: 50%;
+}

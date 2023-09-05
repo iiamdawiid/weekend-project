@@ -64,8 +64,8 @@ input[type=submit] {
 }
 
 .input-icon {
-    translate: 90px 85px; /* Adjust the margin for icon spacing */
-    font-size: 20px; /* Adjust the icon size */
+    translate: 90px 85px; 
+    font-size: 20px; 
     color: #555;
 }
 
